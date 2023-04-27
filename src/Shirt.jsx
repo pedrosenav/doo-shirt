@@ -1,9 +1,12 @@
+import { useState } from 'react'
 import Options from './Options'
 
-export default function Shirt({ shirtColor }) {
+export default function Shirt() {
+	const [shirtColor, setShirtColor] = useState('branco')
+	
 	return (
 		<>
-			<Options />
+			<Options handleShirtColor={setShirtColor} />
 			<div className="flex flex-row gap-1 relative">
 				<div className="relative flex justify-center w-fit">
 					<img
