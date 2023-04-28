@@ -5,7 +5,7 @@ import Design from './Design'
 
 export default function Shirt() {
 	const [shirtColor, setShirtColor] = useState('branco')
-	const [designColor, setDesignColor] = useState('red')
+	const [designColor, setDesignColor] = useState('#000')
 
 	return (
 		<>
