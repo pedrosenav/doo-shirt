@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Shirt from './Shirt'
 
 export default function App() {

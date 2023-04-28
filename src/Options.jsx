@@ -23,7 +23,6 @@ export default function Options({ handleShirtColor, handleDesignColor }) {
 				>
 					<span>Branco</span>
 					<input
-						checked
 						className="accent-slate-500"
 						type="radio"
 						name="shirtColor"
