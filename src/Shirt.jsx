@@ -20,13 +20,13 @@ export default function Shirt() {
 						className="absolute h-fit mt-[20%] w-[35%]"
 						color={designColor}
 					/>
-					<img src={`./src/assets/costas-${shirtColor}.jpg`} />
+					<img src={`src/assets/costas-${shirtColor}.jpg`} />
 				</div>
 
 				<div className="relative flex justify-center w-fit">
 					<Name className="absolute mt-[30%] w-[15%]" color={designColor} />
 
-					<img src={`./src/assets/frente-${shirtColor}.jpg`} />
+					<img src={`src/assets/frente-${shirtColor}.jpg`} />
 				</div>
 			</div>
 		</>
